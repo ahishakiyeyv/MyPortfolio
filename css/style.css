@@ -77,14 +77,14 @@
     font-size:30px;
 }
 .txt-typing{
- animation:type 6s steps(20);
+ animation:type 4s steps(20);
 animation-iteration-count: infinite;
  overflow:hidden;
  white-space: nowrap;
  border-right:4px solid black;
  width:16ch;
- font-size: 35px;
- color:blue;
+ font-size: 30px;
+ color:black;
  position:absolute;
  top:350px;
  left:190px;
