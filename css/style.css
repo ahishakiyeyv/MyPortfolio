@@ -207,4 +207,34 @@ b{
     margin:0px 10px;
 }
 /* ===================================CONTAINER 2======================== */
-.container2{}
+.container2{
+    margin:150px 0px;
+    background:gray;
+    padding:120px 0px;
+}
+.skills{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt-skills{
+    width:500px;
+}
+.parag{
+    color:black;
+    font-size:15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.progress-bar{
+    border:2px solid red;
+    width:550px;
+    height:250px;
+    margin:10px;
+}
+
+/* =====================================CONTAINER 3================================ */
+.container3{
+    margin:150px 0px;
+    padding:120px 0px;
+}
