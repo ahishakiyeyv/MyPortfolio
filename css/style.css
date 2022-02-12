@@ -165,7 +165,7 @@ span{
 }
 .para{
     text-align: justify;
-    line-height: 30px;
+    line-height: 25px;
     color:gray;
     margin:18px 5px;
     font-size:15px;
@@ -174,11 +174,18 @@ span{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width:300px;
-    margin:20px 100px;
+    width:500px;
+    margin:20px 30px;
+}
+b{
+    font-size:13px;
+    font-weight:1;
+    color:gray;
+    letter-spacing: 1px;
 }
 .lii{
     margin:20px 0px;
+    list-style-type: none;
 }
 .btn{
     margin:20px 50px;
@@ -199,3 +206,5 @@ span{
     border:2px solid black;
     margin:0px 10px;
 }
+/* ===================================CONTAINER 2======================== */
+.container2{}
