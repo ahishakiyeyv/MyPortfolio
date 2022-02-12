@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+/* body{
+    background:gray;
+} */
+/* ========================================Menu bar======================== */
+.logo-img{
+    width:30%;
+    height:35%;
+}
+#header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.6s;
+    padding:20px 60px;
+    z-index: 100000;
+}
+#header.sticky{
+    padding:10px 20px;
+    background:#fff;
+}
+#header .logo{
+    position:relative;
+    font-weight: 700;
+    color:#000;
+    text-decoration: none;
+    font-size:2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition:0.6s;
+}
+#header .ule{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .ule .nav-item{
+    position:relative;
+    list-style-type: none;
+}
+#header .ule .nav-item .nav-link{
+    position:relative;
+    margin:0 15px;
+    text-decoration: none;
+    color:ivory;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition:0.6s;
+}
+#header.sticky .logo,
+#header.sticky .ule .nav-item .nav-link{
+    color:#000;
+}
+/* =================================section 1======================= */
+.banner{
+    position:relative;
+    width:100%;
+    height:120vh;
+    background:url("../images/001.jpg");
+    background-size: cover;
+}
+.txt{
+    position:absolute;
+    top:280px;
+    left:180px;
+    color:ivory;
+    font-size:30px;
+}
+.txt-typing{
+ animation:type 6s steps(20);
+animation-iteration-count: infinite;
+ overflow:hidden;
+ white-space: nowrap;
+ border-right:4px solid black;
+ width:16ch;
+ font-size: 35px;
+ color:blue;
+ position:absolute;
+ top:350px;
+ left:190px;
+}
+@keyframes type {
+    0%{
+        width:0ch;
+    }
+    100%{
+        width:16ch;
+    }
+}
