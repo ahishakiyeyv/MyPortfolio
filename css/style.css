@@ -86,7 +86,7 @@ animation-iteration-count: infinite;
  font-size: 30px;
  color:black;
  position:absolute;
- top:350px;
+ top:370px;
  left:190px;
 }
 @keyframes type {
@@ -99,15 +99,15 @@ animation-iteration-count: infinite;
 }
 /* ==============================================  CONTAINER 1 ================================== */
 .container1{
-    margin:50px 0px;
+    margin:80px 0px;
 }
 .inner-txt{
     font-size: 15px;
     color:gray;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     font-weight:10;
-    margin:20px 90px;
+    margin:10px 90px;
 }
 .iner-txt{
     font-size: 15px;
@@ -121,7 +121,7 @@ animation-iteration-count: infinite;
     font-size:23px;
     color:black;
     text-transform: uppercase;
-    margin:20px 90px;
+    margin:10px 90px;
     letter-spacing: 5px;
 }
 .about{
@@ -143,15 +143,16 @@ animation-iteration-count: infinite;
 .title-about{
     font-size:20px;
     color:black;
-    letter-spacing: 3px;
+    /* letter-spacing: 1px; */
     margin:20px 5px;
 }
 span{
-    animation:typing 4s steps(15);
+    animation: typing 3s steps(16);
     animation-iteration-count: infinite;
     overflow: hidden;
     white-space: nowrap;
-    width:15ch;
+    width:16ch;
+    border-right:3px solid red;
     color:red;
 }
 @keyframes typing{
@@ -159,7 +160,7 @@ span{
         width:0ch;
     }
     100%{
-        width:15ch;
+        width:16ch;
     }
 }
 .para{
@@ -167,6 +168,7 @@ span{
     line-height: 30px;
     color:gray;
     margin:18px 5px;
+    font-size:15px;
 }
 .info{
     display:flex;
@@ -177,4 +179,23 @@ span{
 }
 .lii{
     margin:20px 0px;
+}
+.btn{
+    margin:20px 50px;
+}
+.btn1{
+    padding:15px;
+    background:black;
+    color:#fff;
+    font-size:15px;
+    border-radius: 50px;
+}
+.btn2{
+    padding:15px;
+    background:#fff;
+    color:black;
+    font-size:15px;
+    border-radius: 50px;
+    border:2px solid black;
+    margin:0px 10px;
 }
