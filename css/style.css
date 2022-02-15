@@ -287,7 +287,36 @@ b{
     align-items: stretch;
  }
  .overlay{
-     height:220px;
-     width:180px;
+     margin:50px 0px;
+     height:350px;
+     width:350px;
      border:2px solid red;
+     transform: translate(-50%, -50%);
+ }
+ .img-1{
+     height:350px;
+     width:350px;
+ }
+ .txt-over{
+     /* position:absolute;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0; */
+     opacity: 0;
+     transition: opacity 0.4s ease-in-out;
+     background:black;
+     cursor:pointer;
+ }
+ .over{
+     /* position:absolute;
+     top:50%;
+     left:50%; */
+     transform: translate(-50%, -50%);
+     color:ivory;
+     font-family:sans-serif;
+     text-align:center;
+ }
+ .overlay:hover .txt-over{
+     opacity: 0.8;
  }
