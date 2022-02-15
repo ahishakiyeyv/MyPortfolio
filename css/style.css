@@ -269,3 +269,25 @@ b{
     transition:0.5s;
     background:orange;
 }
+
+
+/* ===================================CONTAINER 4====================================== */
+.container4{
+    background:gray;
+    margin:80px 0px;
+    padding:20px 0px;
+}
+ .boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    justify-items: center;
+    align-items: stretch;
+ }
+ .overlay{
+     height:220px;
+     width:180px;
+     border:2px solid red;
+ }
