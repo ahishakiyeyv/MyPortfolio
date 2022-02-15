@@ -345,7 +345,15 @@ b{
     font-size:15px;
     margin-top:8px;
 }
-
+.btn-more{
+    padding:25px;
+    background:black;
+    color:#fff;
+    font-size:15px;
+    border-radius: 50px;
+    margin:0% 45%;
+    width:15%;
+}
 /* ======================================CONTAINER 5 ================================= */
 .reference{
     height:400px;
