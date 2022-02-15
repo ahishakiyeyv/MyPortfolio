@@ -103,6 +103,7 @@ animation-iteration-count: infinite;
     top:450px;
     left:190px;
     padding:15px;
+    margin:10px;
     border:1px solid red;
     border-radius:50px;
 }
