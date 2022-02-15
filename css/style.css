@@ -156,7 +156,7 @@ animation-iteration-count: infinite;
     /* letter-spacing: 1px; */
     margin:20px 5px;
 }
-span{
+.span{
     animation: typing 3s steps(16);
     animation-iteration-count: infinite;
     overflow: hidden;
@@ -298,7 +298,7 @@ b{
     box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 .single-team:hover{
-    transform:translateY(15px);
+    transform:translateY(20px);
 }
 .single-team:hover:before{
     opacity:1;
@@ -344,4 +344,11 @@ b{
     letter-spacing: 1px;
     font-size:15px;
     margin-top:8px;
+}
+
+/* ======================================CONTAINER 5 ================================= */
+.reference{
+    height:400px;
+    width:600px;
+    text-align: center;
 }
