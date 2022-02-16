@@ -157,7 +157,92 @@
         <h4 class="inner-txt">testiomonials</h4>
          <h1 class="txt-container">my references</h1>
          <div class="reference">
-           
+            <div class="container">
+                <div class="indicator">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+                <div class="testimonial">
+                <div class="slide-row" id="slide">
+                    <div class="slide-col">
+                            <div class="user-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae nesciunt consequatur necessitatibus, porro et, beatae ducimus natus nisi maxime aliquam laboriosam expedita cupiditate voluptate impedit dignissimos quisquam eveniet quaerat?</p>
+                                <h3>sarah</h3>
+                                <p>BEG Cor.</p>
+                            </div>
+                            <div class="user-img">
+                              <img src="image/chel.jpg">
+                            </div>
+                    </div>
+                        <div class="slide-col">
+                        <div class="user-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae nesciunt consequatur necessitatibus, porro et, beatae ducimus natus nisi maxime aliquam laboriosam expedita cupiditate voluptate impedit dignissimos quisquam eveniet quaerat?</p>
+                            <h3>Jeffry</h3>
+                            <p>JEJE Cor.</p>
+                        </div>
+                        <div class="user-img">
+                          <img src="image/1.jpg">
+                        </div>
+                     </div>
+                   <div class="slide-col">
+                    <div class="user-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae nesciunt consequatur necessitatibus, porro et, beatae ducimus natus nisi maxime aliquam laboriosam expedita cupiditate voluptate impedit dignissimos quisquam eveniet quaerat?</p>
+                        <h3>Jacob</h3>
+                        <p>Treymont Inc.</p>
+                    </div>
+                    <div class="user-img">
+                      <img src="image/avion.jpg">
+                    </div>
+                   </div>
+                   <div class="slide-col">
+                      <div class="user-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae nesciunt consequatur necessitatibus, porro et, beatae ducimus natus nisi maxime aliquam laboriosam expedita cupiditate voluptate impedit dignissimos quisquam eveniet quaerat?</p>
+                    <h3>Samantha</h3>
+                    <p>HallMat Cor.</p>
+                </div>
+                <div class="user-img">
+                  <img src="image/1.jpg">
+                </div>
+                   </div>
+                </div>
+                </div>
+             </div>
+            </div>
+    <script>
+            var btn = document.getElementsByClassName("btn");
+            var slide = document.getElementById("slide");
+            btn[0].onclick = function(){
+                slide.style.transform="translateX(0px)";
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+            btn[1].onclick = function(){
+                slide.style.transform="translateX(-800px)";
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+            btn[2].onclick = function(){
+                slide.style.transform="translateX(-1600px)";
+                 for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+            btn[4].onclick = function(){
+                slide.style.transform="translateX(-2400px)";
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+    </script>
+    
          </div>
     </section>
 
