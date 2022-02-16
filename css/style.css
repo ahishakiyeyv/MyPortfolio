@@ -356,9 +356,9 @@ b{
 }
 /* ======================================CONTAINER 5 ================================= */
 .reference{
-    height:400px;
-    width:600px;
-    text-align: center;
+    height:600px;
+    width:100%;
+    position:relative;
 }
 .slide-row{
     display: flex;
@@ -377,7 +377,7 @@ b{
     height:100%;
     width:60%;
 }
-.user-img img{
+.user-img .img-ref{
     height:100%;
     width:60%;
     margin:0px 120px;
@@ -396,11 +396,11 @@ b{
     padding:45px;
     z-index:3;
 }
-.user-text p{
+.user-text .p-ref{
     font-size:18px;
     line-height: 24px;
 }
-.user-text h3{
+.user-text .h3-ref{
     margin:35px 0px 5px;
     color:#fff;
 }
