@@ -355,6 +355,10 @@ b{
     width:13%;
 }
 /* ======================================CONTAINER 5 ================================= */
+.container5{
+    background:rgb(214, 214, 214);
+    padding:20px 0px;
+}
 .reference{
     height:600px;
     width:100%;
@@ -371,15 +375,15 @@ b{
     position:relative;
 }
 .user-img{
-    position:relative;
+    position:absolute;
     top:0;
     right:0;
     height:100%;
-    width:60%;
+    width:65%;
 }
 .user-img .img-ref{
     height:100%;
-    width:60%;
+    width:65%;
     margin:0px 120px;
     border-radius:10px;
 }
@@ -394,7 +398,7 @@ b{
     border-radius:10px;
     color:#d3d4d6;
     padding:45px;
-    z-index:3;
+    z-index:2;
 }
 .user-text .p-ref{
     font-size:18px;
@@ -413,7 +417,7 @@ b{
     transform:translate(-50%, -50%);
 }
 .indicator{
-    position:relative;
+    position:absolute;
     left:50%;
     transform:translateX(-50%);
     bottom:-20%;
@@ -424,7 +428,7 @@ b{
     width:15px;
     margin:4px;
     border-radius:15px;
-    background:#fff;
+    background:#000;
     cursor:pointer;
     transition:0.5s;
 }
