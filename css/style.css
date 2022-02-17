@@ -261,7 +261,7 @@ b{
     width:350px;
     height:350px;
     border:2px solid red;
-    background:gray;
+    background:ivory;
     border-radius:20px;
 }
 .box:hover{
@@ -270,17 +270,21 @@ b{
     background:orange;
 }
 .h3-service{
-    text-align:center;
-    font-size:20px;  
+    text-align:left;
+    padding:0px 5px;
+    font-size:20px; 
+    letter-spacing: 5px; 
 }
-.icon{
-    font-size: 30px;
-    text-align: center;
+.icon i{
+    width: 130px;
+    height:100px;
 }
 .p-service{
     text-align: center;
     font-size: 15px;
     color:gray;
+    padding:30px 0px;
+    line-height: 20px;
 }
 
 /* ===================================CONTAINER 4====================================== */
