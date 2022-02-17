@@ -237,25 +237,24 @@ b{
     line-height: 25px;
 }
 .progress-bar{
-    border:2px solid red;
     width:100%;
+    height: auto;
      max-width:600px;
-     padding:0 20px;
+     padding:0 10px;
 }
 .skill-name{
-    font-size:18px;
-    font-weight:700;
+    font-size:14px;
     color:#f1f1f1;
     text-transform:uppercase;
-    margin:20px 0px;
+    margin:10px 0px;
 }
 .skill-bar{
-    height:14px;
+    height:7px;
     background:#282828;
     border-radius:3px;
 }
 .skill-per{
-    height:14px;
+    height:7px;
     background:#d13639;
     border-radius:3px;
     position:relative;
