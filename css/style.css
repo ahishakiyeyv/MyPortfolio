@@ -270,7 +270,17 @@ b{
     background:orange;
 }
 .h3-service{
-    
+    text-align:center;
+    font-size:20px;  
+}
+.icon{
+    font-size: 30px;
+    text-align: center;
+}
+.p-service{
+    text-align: center;
+    font-size: 15px;
+    color:gray;
 }
 
 /* ===================================CONTAINER 4====================================== */
