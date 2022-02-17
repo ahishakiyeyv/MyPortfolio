@@ -511,19 +511,20 @@ b{
 .container-card{
     position:relative;
     width:1100px;
+    height:700px;
     top:10px;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
-    padding:30px;
+    padding:20px;
 }
 .container-card .card{
     position:relative;
     max-width:300px;
     height:215px;
     background:#fff;
-    margin:30px 10px;
+    margin:20px 20px;
     padding:20px 15px;
     display:flex;
     flex-direction:column;
@@ -542,7 +543,7 @@ b{
     z-index: 1;
     box-shadow:0 5px 20px rgba(0,0,0,0.2);
 }
-.container-card .card .imgBx img{
+.container-card .card .imgBx .img-card{
     max-width:100%;
     border-radius:4px;
 }
