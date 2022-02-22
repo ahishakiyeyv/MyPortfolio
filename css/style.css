@@ -556,10 +556,17 @@ font-size:15px;
     justify-content: center;
     align-items:center;
 }
+.send-btn{
+    padding:15px;
+    background:black;
+    color:#fff;
+    border-radius:50px;
+    width:120px;
+}
 .main-address{
     display:flex;
     flex-direction: column;
-    width:450px;
+    width:300px;
 }
 .form-contact{
     display:flex;
@@ -608,13 +615,13 @@ font-size:15px;
     font-size:16px;
 }
 .main-address,.location,.phones,.emails{
-    margin:20px 0px;
+    margin:30px 0px;
 }
 .location{
     border:1px solid red;
     height:100px;
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background:ivory;
 }
@@ -622,7 +629,7 @@ font-size:15px;
     border:1px solid red;
     height:100px;
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background:ivory;
 }
@@ -630,15 +637,15 @@ font-size:15px;
     border:1px solid red;
     height:100px;
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background:ivory;
 }
 .font-icon{
     border:1px solid red;
-    border-radius:50% ;
-    width:40%;
-    height:50%;
+    border-radius:50px;
+    width:40px;
+    height:50px;
     margin:5px;
 }
 .address-content{
