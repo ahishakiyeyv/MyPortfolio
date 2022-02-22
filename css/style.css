@@ -565,6 +565,16 @@ font-size:15px;
     display:flex;
     flex-direction:column;
     width:750px;
+    border:1px solid red;
+    padding:10px;
+    margin:0px 20px;
+    background:ivory;
+}
+.title-contact{
+    font-weight:600;
+    margin:10px 0px;
+    text-align: center;
+    letter-spacing: 3px;
 }
 .form,.name,.email{
     display:flex;
@@ -579,38 +589,58 @@ font-size:15px;
     border-left:0;
     border-right:0;
     border-bottom:2px solid black;
-    background:gray;
-    color:ivory;
+    background:transparent;
     outline:none;
     padding:5px;
     font-size:16px;
 }
 ::placeholder{
-    color:ivory;
+    color:black;
 }
 .text-area{
     border-top:0;
     border-left:0;
     border-right:0;
     border-bottom:2px solid black;
-    background:gray;
-    color:ivory;
+    background:transparent;
     outline:none;
     padding:5px;
     font-size:16px;
 }
 .main-address,.location,.phones,.emails{
-    margin:20px 20px;
+    margin:20px 0px;
 }
 .location{
     border:1px solid red;
     height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:ivory;
 }
 .phones{
     border:1px solid red;
     height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:ivory;
 }
 .emails{
     border:1px solid red;
     height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:ivory;
+}
+.font-icon{
+    border:1px solid red;
+    border-radius:50% ;
+    width:40%;
+    height:50%;
+    margin:5px;
+}
+.address-content{
+    margin:5px;
 }
