@@ -507,6 +507,40 @@ b{
 /* =====================================CONTAINER 6====================== */
 .container6{
     background:ivory;
-    margin:50px 0px;
+    margin:100px 0px;
+}
+.container-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    width:300px;
+    margin:30px 20px;
+    border:1px solid red;
+}
+.img-card{
+    height:250px;
+    width:300px;
+}
+.imgBx{
+    height:250px;
+    width:300px;
+}
+.content-card .h5-card{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.content-card .p-card{
+text-align: center;
+padding:7px 15px;
+}
+.btn-card{
+    padding:10px;
+    background:black;
+    color:#fff;
+    border-radius:20px;
+    margin:5px 10px;
+    float:right;
 }
 
