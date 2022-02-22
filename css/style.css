@@ -551,3 +551,21 @@ font-size:15px;
     background:gray;
     padding:100px 0px;
 }
+.contact{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.main-address{
+    display:flex;
+    flex-direction: column;
+}
+.form-contact{
+    display:flex;
+    flex-direction:column;
+}
+.form{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
