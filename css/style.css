@@ -517,7 +517,8 @@ b{
 .card{
     width:300px;
     margin:30px 20px;
-    border:1px solid red;
+    border:1px solid gray;
+    border-radius:10px;
 }
 .img-card{
     height:250px;
@@ -527,13 +528,15 @@ b{
     height:250px;
     width:300px;
 }
-.content-card .h5-card{
+.content-card .h4-card{
     text-align: center;
     letter-spacing: 2px;
+    padding:10px 0px;
 }
 .content-card .p-card{
 text-align: center;
 padding:7px 15px;
+font-size:15px;
 }
 .btn-card{
     padding:10px;
