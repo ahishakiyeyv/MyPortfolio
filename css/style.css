@@ -26,7 +26,7 @@
 }
 #header.sticky{
     padding:10px 20px;
-    background:#fff;
+    background:#ececec;
 }
 #header .logo{
     position:relative;
@@ -219,7 +219,7 @@ b{
 /* ===================================CONTAINER 2======================== */
 .container2{
     margin:150px 0px;
-    background:gray;
+    background:#ececec;
     padding:120px 0px;
 }
 .skills{
@@ -244,7 +244,7 @@ b{
 }
 .skill-name{
     font-size:14px;
-    color:#f1f1f1;
+    color:#000;
     text-transform:uppercase;
     margin:10px 0px;
 }
@@ -264,7 +264,8 @@ b{
     content:attr(per);
     position:absolute;
     padding :4px 6px;
-    background:#f1f1f1;
+    background:#000;
+    color:#fff;
     border-radius:4px;
     font-size:12px;
     top:-35px;
@@ -276,7 +277,8 @@ b{
     position:absolute;
     width:10px;
     height:10px;
-    background:#f1f1f1;
+    background:#000;
+    color:#fff;
     top:-20px;
     right:0;
     transform:translateX(50%) rotate(45deg);
@@ -318,26 +320,28 @@ b{
     background:orange;
 }
 .h3-service{
-    text-align:left;
+    text-align:center;
     padding:0px 5px;
     font-size:20px; 
     letter-spacing: 5px; 
 }
-.icon i{
-    width: 130px;
+.icon {
+    width: 100px;
     height:100px;
+    border:1px dashed red;
+    border-radius:50px;
 }
 .p-service{
     text-align: center;
     font-size: 15px;
-    color:gray;
+    color:#888888;
     padding:30px 0px;
     line-height: 20px;
 }
 
 /* ===================================CONTAINER 4====================================== */
 .container4{
-    background:gray;
+    background:#ececec;
     margin:80px 0px;
     padding:80px 0px;
 }
@@ -548,7 +552,7 @@ font-size:15px;
 }
 /* ====================================================CONTAINER 7===================================== */
 .container7{
-    background:gray;
+    background:#ececec;
     padding:100px 0px;
 }
 .contact{
