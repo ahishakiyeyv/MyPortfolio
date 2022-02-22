@@ -656,3 +656,11 @@ font-size:15px;
 .address-content{
     margin:5px;
 }
+/* =================================FOOTER============================= */
+footer{
+    background:#000000;
+}
+.footer-items{
+display:flex;
+justify-content:space-around;
+}
