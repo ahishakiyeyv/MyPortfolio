@@ -559,7 +559,7 @@ font-size:15px;
 .main-address{
     display:flex;
     flex-direction: column;
-    width:350px;
+    width:450px;
 }
 .form-contact{
     display:flex;
@@ -572,15 +572,45 @@ font-size:15px;
     align-items:center;
     margin:20px 5px;
 }
+.inpt-form{
+    height:40px;
+    width:2225x;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:2px solid black;
+    background:gray;
+    color:ivory;
+    outline:none;
+    padding:5px;
+    font-size:16px;
+}
+::placeholder{
+    color:ivory;
+}
+.text-area{
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:2px solid black;
+    background:gray;
+    color:ivory;
+    outline:none;
+    padding:5px;
+    font-size:16px;
+}
 .main-address,.location,.phones,.emails{
     margin:20px 20px;
 }
 .location{
     border:1px solid red;
+    height:100px;
 }
 .phones{
     border:1px solid red;
+    height:100px;
 }
 .emails{
     border:1px solid red;
+    height:100px;
 }
