@@ -4,6 +4,7 @@
     margin:0;
     box-sizing:border-box;
     font-family:'rambla', sans-serif;
+    scroll-behavior: smooth;
 }
 /* body{
     background:gray;
@@ -27,7 +28,7 @@
 }
 #header.sticky{
     padding:10px 20px;
-    background:#ececec;
+    background:#f3f2f2;
 }
 #header .logo{
     position:relative;
@@ -109,7 +110,7 @@ animation-iteration-count: infinite;
     border-radius:50px;
 }
 /* ==============================================  CONTAINER 1 ================================== */
-.container1{
+#container1{
     margin:20px 0px;
     background:#ececec;
     padding:60px 0px;
@@ -230,7 +231,7 @@ b{
     color:#fff;
 }
 /* ===================================CONTAINER 2======================== */
-.container2{
+#container2{
     margin:10px 0px;
     padding:80px 0px;
 }
@@ -306,7 +307,7 @@ b{
 }
 
 /* =====================================CONTAINER 3================================ */
-.container3{
+#container3{
     background:#ececec;
     margin:20px 0px;
     padding:80px 0px;
@@ -355,7 +356,7 @@ b{
 }
 
 /* ===================================CONTAINER 4====================================== */
-.container4{
+#container4{
     margin:80px 0px;
     padding:10px 0px;
 }
@@ -437,7 +438,7 @@ b{
     width:13%;
 }
 /* ======================================CONTAINER 5 ================================= */
-.container5{
+#container5{
     background: #ececec;
     padding:50px 0px;
 }
@@ -523,7 +524,7 @@ b{
     overflow: hidden;
 }
 /* =====================================CONTAINER 6====================== */
-.container6{
+#container6{
     background:ivory;
     margin:100px 0px;
 }
@@ -565,7 +566,7 @@ font-size:15px;
     float:right;
 }
 /* ====================================================CONTAINER 7===================================== */
-.container7{
+#container7{
     background:#ececec;
     padding:80px 0px;
     margin:20px 0px;
