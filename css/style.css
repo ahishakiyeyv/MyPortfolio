@@ -106,8 +106,14 @@ animation-iteration-count: infinite;
     left:190px;
     padding:15px;
     margin:10px;
-    border:2px dashed #fff;
+    border:1px dashed #ececec;
     border-radius:50px;
+}
+.sociolinks:hover{
+    transition:1s;
+    background:#000000;
+    opacity: 0.5;
+    color: #fff;
 }
 /* ==============================================  CONTAINER 1 ================================== */
 #container1{
@@ -437,6 +443,11 @@ b{
     margin:0% 42%;
     width:13%;
 }
+.btn-more:hover{
+    transition:1s;
+    background:#fff;
+    color:#000;
+}
 /* ======================================CONTAINER 5 ================================= */
 #container5{
     background: #ececec;
@@ -582,6 +593,12 @@ font-size:15px;
     color:#fff;
     border-radius:50px;
     width:120px;
+    font-size:15px;
+}
+.send-btn:hover{
+    transition:1s;
+    color:#000;
+    background:#fff;
 }
 .main-address{
     display:flex;
@@ -693,7 +710,10 @@ margin:0px 30px;
 }
 .footer-links .footer-link{
     color:#fff;
-    border:1px solid red;
+}
+.footer-links .footer-link:hover{
+    transition:1s;
+    color:#888888;
 }
 .footer-link{
     margin:10px;
