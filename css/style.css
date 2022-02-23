@@ -221,9 +221,8 @@ b{
 }
 /* ===================================CONTAINER 2======================== */
 .container2{
-    margin:150px 0px;
-    background:#ececec;
-    padding:120px 0px;
+    margin:10px 0px;
+    padding:80px 0px;
 }
 .skills{
     display:flex;
@@ -298,10 +297,12 @@ b{
 
 /* =====================================CONTAINER 3================================ */
 .container3{
-    margin:80px 0px;
-    padding:20px 0px;
+    background:#ececec;
+    margin:20px 0px;
+    padding:80px 0px;
 }
 .flexbox{
+    padding:20px 0px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -344,9 +345,8 @@ b{
 
 /* ===================================CONTAINER 4====================================== */
 .container4{
-    background:#ececec;
     margin:80px 0px;
-    padding:80px 0px;
+    padding:10px 0px;
 }
  .boxes {
     display: grid;
@@ -427,8 +427,8 @@ b{
 }
 /* ======================================CONTAINER 5 ================================= */
 .container5{
-    background:#ff676d;
-    padding:20px 0px;
+    background: #ececec;
+    padding:50px 0px;
 }
 .reference{
     height:600px;
