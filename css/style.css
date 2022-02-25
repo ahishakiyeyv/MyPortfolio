@@ -63,6 +63,9 @@
 #header.sticky .ule .nav-item .nav-link{
     color:#000;
 }
+.hamb img{
+    display:none;
+}
 /* =================================section 1======================= */
 .banner{
     position:relative;
