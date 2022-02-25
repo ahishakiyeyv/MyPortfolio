@@ -702,11 +702,16 @@ font-size:15px;
     color:#888888;
 }
 .font-icon{
-    border:1px solid red;
+    border:1px solid gray;
     border-radius:50px;
     width:40px;
     height:50px;
     margin:5px;
+}
+.font-icon img{
+    position:relative;
+    top:20%;
+    left:25%;
 }
 .address-content{
     margin:5px;
