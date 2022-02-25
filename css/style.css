@@ -353,6 +353,12 @@ b{
     border:1px dashed gray;
     border-radius:50px;
 }
+.icon img{
+    position:relative;
+    top:20%;
+    left:25%;
+    font-size:50px;
+}
 .p-service{
     text-align: center;
     font-size: 15px;
