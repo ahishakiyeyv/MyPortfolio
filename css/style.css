@@ -158,6 +158,10 @@ animation-iteration-count: infinite;
     border:2px solid red;
     margin:0px 30px;
 }
+.img-about img{
+    width:inherit;
+    height:inherit;
+}
 .txt-about{
     width:700px;
     margin:10px;
@@ -743,3 +747,4 @@ margin:0px 30px;
 .footer-copyright .copyright{
     color:#fff;
 }
+/* =========================================MEDIA QUERRIES================================== */
