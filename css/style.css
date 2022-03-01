@@ -745,8 +745,21 @@ margin:0px 30px;
     color:#fff;
 }
 /* =========================================MEDIA QUERRIES================================== */
-@media screen and (min-width:320px) and(max-width:480px) {
-    #header .ule{
+@media only screen and (max-width:320px) {
+    #header .ule .nav-item .nav-link{
         display:none;
+    }
+    .hamb img{
+        display:flex;
+        float:center;
+        background:red;
+        font-size:120px;
+    }
+    /* ========================================HOMEPAGE===================================== */
+    .banner{
+        width:320px;
+        height:120vh;
+        background-size: cover;
+        
     }
 }
